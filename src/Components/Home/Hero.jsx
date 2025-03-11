@@ -1,4 +1,4 @@
-import React from 'react';  
+import React from 'react'; 
 import { BiArrowBack, BiLogoGithub, BiLogoLinkedin, BiBuildings } from 'react-icons/bi';
 import { Link } from 'react-scroll';
 
@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div id='home' className='h-full w-full flex flex-col items-center justify-center text-center lg:h-[90vh] py-10'>
       <div className='w-[90%] lg:w-[60%] font-bold mb-6'>
-        <h1 className='text-3xl sm:text-4xl md:text-6xl'>
+        <h1 className='text-3xl sm:text-4xl md:text-6xl mt-6'>
           I'm <span className='textcolor'>Dipak Ghadge</span>
         </h1>
         <h2 className='text-lg sm:text-3xl md:text-4xl mt-2'>
@@ -22,10 +22,19 @@ function Hero() {
       <div className='w-full text-center mb-8'>
         <h2 className='text-2xl font-bold mb-6'>Internships & Experience</h2>
         <div className='flex flex-col md:flex-row justify-center items-center gap-6'>
-          <div className='p-4 border rounded-md shadow-md text-center w-96 h-72 flex flex-col items-center justify-between'>
+          <div className='p-4 border rounded-md shadow-md text-center w-95 h-70 flex flex-col items-center justify-between'>
             <BiBuildings className='text-4xl text-purple-700 mb-2' />
-            <a href='http://www.astechnologycorp.com' target='_blank' rel='noopener noreferrer' className='text-lg md:text-xl font-semibold text-blue-600 hover:underline'>AS Technology Corporation</a>
-            <p className='text-md text-gray-200'>Full Stack Developer Intern | Jun2024-Aug2024 | Pune Maharashtra, Remote</p>
+            <a 
+              href='http://www.astechnologycorp.com' 
+              target='_blank' 
+              rel='noopener noreferrer' 
+              className='text-lg md:text-xl font-semibold text-blue-600 hover:underline'
+            >
+              AS Technology Corporation
+            </a>
+            <p className='text-md text-gray-200'>
+              Full Stack Developer Intern | Jun 2024 - Aug 2024 
+            </p>
             <ul className='text-md text-gray-200 list-disc list-inside text-left'>
               <li>Redesigned the "Skill Hub" dashboard using Figma, enhancing usability.</li>
               <li>Developed a responsive front-end using React and Tailwind CSS.</li>
@@ -33,10 +42,19 @@ function Hero() {
               <li>Launched 8+ features, reducing page load times by 20% and increasing user engagement.</li>
             </ul>
           </div>
-          <div className='p-4 border rounded-md shadow-md text-center w-96 h-72 flex flex-col items-center justify-between'>
+          <div className='p-4 border rounded-md shadow-md text-center w-95 h-70 flex flex-col items-center justify-between'>
             <BiBuildings className='text-4xl text-purple-700 mb-2' />
-            <a href='http://www.krgconsultants.com' target='_blank' rel='noopener noreferrer' className='text-lg md:text-xl font-semibold text-blue-600 hover:underline'>KRG Consultants</a>
-            <p className='text-md text-gray-200'>Web Development Intern | Dec 2023 - Feb 2024 | Vashi Navi Mumbai, Hybrid</p>
+            <a 
+              href='http://www.krgconsultants.com' 
+              target='_blank' 
+              rel='noopener noreferrer' 
+              className='text-lg md:text-xl font-semibold text-blue-600 hover:underline'
+            >
+              KRG Consultants
+            </a>
+            <p className='text-md text-gray-200'>
+              Web Development Intern | Dec 2023 - Feb 2024 
+            </p>
             <ul className='text-md text-gray-200 list-disc list-inside text-left'>
               <li>Designed web sections for "Live Recruit" using Figma.</li>
               <li>Developed the front-end with React, Material UI, Bootstrap, and JavaScript.</li>
