@@ -70,7 +70,7 @@ function LatestWork() {
             </a>
             
             {/* Project Details */}
-            <div className='h-[40%] w-full lg:w-1/2 pl-4 lg:pl-2'>
+            <div className='h-[70%] w-full lg:w-1/2 pl-4 lg:pl-2'>
               <h1 className='text-base font-semibold pb-1'>{val.projectTitle}</h1>
               <p>{val.projectDescription}</p>
 
