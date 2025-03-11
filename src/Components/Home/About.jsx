@@ -12,9 +12,9 @@ function About() {
       <h1 className='w-full md:w-4/5 lg:w-3/5 xl:w-1/2 my-10 m-auto text-sm sm:text-base text-center'>
         I am a Full-Stack Developer with a passion for Artificial Intelligence and Machine Learning. My expertise includes:
         <br /><br />
-        <strong>Frontend Development:</strong> Proficient in React.js, JavaScript, HTML, CSS, and Tailwind CSS. Experienced in state management with Context API, Zustand, and Redux Toolkit to build responsive, user-friendly interfaces.
+        <strong>Frontend Development:</strong> Proficient in React.js , Material UI , JavaScript, HTML, CSS, and Tailwind CSS ,Bootstrap CSS. Experienced in state management with Context API and Redux Toolkit to build responsive, user-friendly interfaces.
         <br /><br />
-        <strong>Backend Development:</strong> Skilled in Node.js, Express.js, and MongoDB, specializing in REST APIs, authentication, and real-time communication with Socket.io. Experienced with Postman, MongoDB Atlas, and Render.
+        <strong>Backend Development:</strong> Skilled in Node.js, Express.js, and MongoDB,  REST APIs, authentication. Experienced with Postman, MongoDB, and Render.
         <br /><br />
         <strong>Web Design:</strong> Creating clean, modern, and user-friendly designs using HTML, CSS, and Tailwind CSS. Experienced in Figma for design and layout planning.
         <br /><br />
@@ -26,14 +26,14 @@ function About() {
           <BiCodeBlock className='text-4xl md:text-5xl pt-4 rounded-full m-auto' />
           <h1 className='text-lg md:text-xl text-center font-semibold py-2'>Frontend Development</h1>
           <p className='text-xs sm:text-sm px-1 text-gray-400 text-center'>
-            Proficient in React.js, JavaScript, HTML, CSS, and Tailwind CSS. Experienced in state management with Context API, Zustand, and Redux Toolkit to build responsive, user-friendly interfaces.
+            Proficient in React.js, JavaScript, HTML, CSS, and Tailwind CSS. Experienced in state management with Context API and Redux Toolkit to build responsive, user-friendly interfaces.
           </p>
         </div>
         <div className='h-48 w-72 sm:h-56 lg:h-56 lg:w-72 cursor-pointer my-4 lg:my-0 mx-4 sm:mx-0 box duration-300 rounded-lg shadow-xl shadow-gray-800'>
           <BiCoinStack className='text-4xl md:text-5xl pt-4 rounded-full m-auto' />
           <h1 className='text-lg md:text-xl text-center font-semibold py-2'>Backend Development</h1>
           <p className='text-xs sm:text-sm px-1 text-gray-400 text-center'>
-            Skilled in Node.js, Express.js, and MongoDB, specializing in REST APIs, authentication, and real-time communication with Socket.io. Experienced with Postman, MongoDB Atlas, and Render.
+            Skilled in Node.js, Express.js, and MongoDB, specializing in REST APIs, authentication. Experienced with Postman, MongoDB , and Render.
           </p>
         </div>
         <div className='h-48 w-72 sm:h-56 lg:h-56 lg:w-72 cursor-pointer my-4 lg:my-0 mx-4 sm:mx-0 box duration-300 rounded-lg shadow-xl shadow-gray-900'>
