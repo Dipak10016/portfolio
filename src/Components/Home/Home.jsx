@@ -9,9 +9,6 @@ function Home() {
   return (
     <div className='fullbackgroundcolor px-4 xl:px-12 relative ' >
       <Hero />
-      <br></br>
-      <br></br>
-      <br></br>
       <About />
       <LatestWork />
       <Contact />
