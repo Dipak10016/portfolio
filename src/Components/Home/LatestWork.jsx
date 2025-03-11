@@ -56,7 +56,8 @@ function LatestWork() {
     <div id='latestwork' className='relative m-auto mt-10 mb-2'>
       <div className='m-auto text-center relative'>
         <h1 className='text-3xl md:text-5xl font-semibold py-7'>Latest Work</h1>
-        <h6 className='text-1xl md:text-4xl  py-7'>(Some videos and deployment links are currently under development.)</h6>
+        <h6 className='text-xs md:text-sm py-3'>(Some videos and deployment links are currently under development.)</h6>
+
         <BiStar className='animate-spin text-2xl absolute bottom-0' />
       </div>
       <BiCircle className='text-5xl animate-pulse absolute bottom-0 right-10' />
