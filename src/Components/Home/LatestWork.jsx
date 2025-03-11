@@ -2,7 +2,7 @@ import React from 'react'
 import { BiCircle, BiStar } from 'react-icons/bi'
 import project4 from '../../assets/visionary extractor.png'
 import project3 from '../../assets/vacatio_next.png'
-import project1 from '../../assets/She_safe.png'
+import project1 from '../../assets/She_Safe.png'
 
 import project5 from '../../assets/quick_menu.png'
 import project2 from '../../assets/campus_edu.png'
